@@ -15,21 +15,36 @@
 /* ------------------------------- 1. Global Styles -------------------------------- */
 
 /*CSS reset*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Merriweather&family=Roboto&display=swap');
 
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 /*Kleurvariabelen*/
+:root {
+    --purple: #5722CD;
+    --blue: #4845E4;
+    --pink: #ED4385;
+    --text-black-standard: #0C0C0C;
+    --floating-light-purple: #F2F0FF;
+    --background-light-grey: #F3F6F9;
+    --tiles-grey: #7A7A7A;
+
+
+}
+
 
 /* ------------------------------- 2. Typography ----------------------------------- */
 
 body {
-    font-family: "Helvetica Neue", sans-serif;
+    font-family: 'Roboto', sans-serif;
+            "Helvetica Neue", sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: Avenir, sans-serif;
+    font-family: 'Merriweather', serif;
 }
 
 /* ------------------------------- 3. Layout --------------------------------------- */
